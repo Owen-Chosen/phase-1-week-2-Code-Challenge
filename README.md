@@ -1,5 +1,7 @@
 // This folder contains three code challenges.
 //-------------------------------------------------------------------------
+                        STUDENT GRADE GENERATOR
+//-------------------------------------------------------------------------
 // First is a function that prompts the user to input student marks. 
 // This input should be between 0 and 100. 
 // Then it output the correct grade between A and E as shown below
@@ -21,6 +23,9 @@ let grade = gradeStudent (39)
 if (grade === 'A' || grade === 'E') console.log (`You had an ${grade}`)
 else console.log (`You had a ${grade}`)
 
+
+//-------------------------------------------------------------------------
+                            SPEED DETECTOR
 //-------------------------------------------------------------------------
 
 Second is a function takes the speed of a car. If the speed is less 
@@ -41,6 +46,9 @@ to test this function, we have a log statement below
 
 console.log (speedDetector(120))
 
+
+//-------------------------------------------------------------------------
+                        NET SALARY CALCULATOR 
 //-------------------------------------------------------------------------
 
 Finally is Net Salary Calculator which calculates an individual’s Net Salary by getting the inputs of basic salary and benefits. It calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and then returns the net salary. 
